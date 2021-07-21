@@ -1,14 +1,20 @@
-import React from "react";
-import Rajat from "./Components/user";
+import { Route } from "react-router-dom";
+
+//HOC
+import DefaultHOC from "./HOC/Default.HOC";
+
+//Components
+import temp from "./components/temp";
+
+
 
 
 function App() {
   return (
-    <div>
-      <h1>User</h1>
-      <Rajat />
-    </div>
+    <>
+      <DefaultHOC path="/" exact component={temp} />
+    </>
   );
-}
+};
 
 export default App;
