@@ -255,7 +255,7 @@ export const PrevArrow = (props) => {
 import React from "react";
 import HeroSlider from "react-slick";
 
-// Compoenent
+// Component
 import { NextArrow, PrevArrow } from "./Arrows.component";
 
 const HeroCarousal = () => {
