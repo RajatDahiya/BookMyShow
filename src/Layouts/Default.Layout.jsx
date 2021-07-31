@@ -5,11 +5,12 @@ import React from 'react';
 import HeroCarousel from '../components/HeroCarousel/HeroCarousel.Component';
 import Navbar from '../components/navbar/Navbar.Component';
 
+
 const DefaultLayout = (props) => {
     return (
         <>
             <Navbar />
-            <HeroCarousel />
+            <HeroCarousel />    
             {props.children}
             
         </>
