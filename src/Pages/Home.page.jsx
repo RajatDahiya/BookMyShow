@@ -2,6 +2,8 @@ import React from "react";
 
 // Components
 import EntertainmentCardSlider from "../components/Entertainment/Entertainment.component";
+import { Premiere } from "../Premiere/Premiere.component";
+
 
 // config
 
@@ -25,6 +27,7 @@ const HomePage = () => {
                 className="w-full h-full"
               />
             </div>
+            <Premiere/>
             </div>
         </div>
         </div>
