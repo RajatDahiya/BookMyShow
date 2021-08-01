@@ -10,10 +10,10 @@ const Poster = (props) => {
             alt={props.title}
             className="w-full h-full rounded-md"/>
          </div>
-         <h3 className={`text-lg font-bold ${props.isDark ? "text-white" : "text-gray-300"}`}>
+         <h3 className={`text-lg font-bold ${props.isDark ? "text-white" : "text-gray-900"}`}>
           {props.title}
          </h3>
-         <p className={`text-sm ${props.isDark ? "text-white" : "text-gray-300"}`}>
+         <p className={`text-sm ${props.isDark ? "text-white" : "text-gray-900"}`}>
           {props.subtitle}
          </p>
         </div>
