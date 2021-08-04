@@ -7,7 +7,7 @@ const MovieHero = () => {
         <div>
             {/*Mobile Device*/}
             <div className=" relative md:hidden w-full" style={{ height:"calc(180vw)" }}>
-              <div className="absolute z-20 bottom-4 left-4">
+              <div className="absolute z-20 bottom-8 left-4">
                 <MovieInfo />
               </div>
              <div className= "w-full h-56 bg-opacity-40 absolute bg-black z-10 bottom-0"/>
@@ -20,7 +20,7 @@ const MovieHero = () => {
             {/*Medium Device*/}
             <div className=" relative hidden md:block w-full lg:hidden" style={{ height:"calc(100vw)" }}>
             <div className= "w-full h-56 bg-opacity-40 absolute bg-black z-10 bottom-0"/>
-              <div className="absolute z-20 bottom-4">
+              <div className="absolute z-20 bottom-8">
                 <MovieInfo />
               </div>
             <img 
