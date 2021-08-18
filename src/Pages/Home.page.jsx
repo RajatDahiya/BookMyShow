@@ -1,5 +1,11 @@
 import axios from "axios";
 import React, {useState, useEffect} from "react";
+import {FcCustomerSupport, FcNews } from "react-icons/fc";
+import { GiTicket } from "react-icons/gi";
+import { RiInstagramFill } from "react-icons/ri";
+import { SiTwitter, SiFacebook, SiLinkedin, SiPinterest, SiYoutube } from "react-icons/si";
+
+
 
 // Components
 import EntertainmentCardSlider from "../components/Entertainment/Entertainment.component";
@@ -80,6 +86,87 @@ const HomePage = () => {
           isDark={false}
         />
       </div>
+
+      <div className="space-y-2 py-4 bg-gray-900">
+        <div className = "container ml-96 w-1/2">
+        <div className = "flex mx-auto justify-center gap-56 mt-8">
+      <div className="w-16 h-16">
+                <FcCustomerSupport className="w-full h-full" />
+              </div>
+      <div className="w-16 h-16">
+                <GiTicket className="w-full h-full" />
+              </div>
+      <div className="w-16 h-16">
+                <FcNews className="w-full h-full" />
+              </div>
+            </div>
+          </div>
+        <div className = "container ml-96 w-1/2 ">
+        <div className = "flex mx-auto justify-between gap-16">
+          <h2 className = "text-gray-600 text-base hover:text-gray-300 cursor-pointer">Customer Support 24x7</h2>
+          <h2 className = "text-gray-600 text-base hover:text-gray-300 cursor-pointer">Check your Tickets</h2>
+          <h2 className = "text-gray-600 text-base hover:text-gray-300 cursor-pointer">Subscribe to NewsLetter</h2>
+        </div></div>  
+      <div className="container py-2 ml-40 w-2/3">
+            <h2 className="text-gray-500 text-sm w-2/3 hover:text-gray-300 cursor-pointer">
+                MOVIES PLAYING IN NATIONAL CAPITAL REGION ( NCR )
+            </h2>
+            <h3 className = "text-gray-500 text-xs py-2">
+              The Suicide Squad | Jungle Cruise | Free Guy | Black Widow | Nobody | Infinite | The Tomorrow War | Jolt | Luca | Vivo | The Forever Purge | Cruella | Don't Breathe 2 | Wrath of a Man | F9 
+            </h3>
+            </div>
+      <div className="container ml-40 w-2/3">
+            <h2 className="text-gray-500 text-sm w-2/3 hover:text-gray-300 cursor-pointer">
+                MOVIES BY GENRE
+            </h2>
+            <h3 className = "text-gray-500 text-xs py-2">
+              Action movies | Thriller movies | Horror movies | Comedy movies | Crime movies | Sci-Fi movies | Drama movies | Romantic movies | Period movies | Traditional movies | Devotional movies | Adaptation movies | Mystery movies | Fantasy movies | Supernatural movies | Animation movies
+            </h3>
+            </div>
+      <div className="container py-2 ml-40 w-2/3">
+            <h2 className="text-gray-500 text-sm w-2/3 hover:text-gray-300 cursor-pointer">
+                MOVIES BY LANGUAGE
+            </h2>
+            <h3 className = "text-gray-500 text-xs py-2">
+              Movies in english | Movies in hindi | Movies in Korean | Movies in Tamil | Movies in telugu | Movies in japanese | Movies in portugese | Movies in assamese | Movies in nepali | Movies in urdu | Movies in spanish | Movies in bengali | Movies in konkani | Movies in marathi 
+            </h3>
+            </div>
+      <div className="container ml-40 w-2/3">
+            <h2 className="text-gray-500 text-sm w-2/3 hover:text-gray-300 cursor-pointer">
+                COUNTRIES
+            </h2>
+            <h3 className = "text-gray-500 text-xs py-2">
+              UAE | Indonesia | Sri Lanka | Singapore | West Indies
+            </h3>
+            </div>
+
+        <div className = "container ml-96 w-1/2">
+            <h2 className="flex justify-center text-gray-600 text-base">
+            --------------- CONTACT US ---------------
+            </h2>
+        <div className = "flex justify-center gap-4 py-4">
+      <div className="w-8 h-8 hover:bg-gray-900 hover:opacity-75 cursor-pointer">
+                <RiInstagramFill className="w-full h-full" />
+              </div>
+      <div className="w-8 h-8 hover:bg-gray-900 v cursor-pointer">
+                <SiFacebook className="w-full h-full" />
+              </div>
+      <div className="w-8 h-8 hover:bg-gray-900 hover:opacity-75 cursor-pointer">
+                <SiTwitter className="w-full h-full" />
+              </div>
+      <div className="w-8 h-8 hover:bg-gray-900 hover:opacity-75 cursor-pointer">
+                <SiLinkedin className="w-full h-full" />
+              </div>
+      <div className="w-8 h-8 hover:bg-gray-900 hover:opacity-75 cursor-pointer">
+                <SiYoutube className="w-full h-full" />
+              </div>
+      <div className="w-8 h-8 hover:bg-gray-900 hover:opacity-75 cursor-pointer">
+                <SiPinterest className="w-full h-full" />
+              </div>
+            </div>
+          </div>
+        </div>
+
    </>
   );
 };
