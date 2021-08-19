@@ -87,6 +87,8 @@ const HomePage = () => {
         />
       </div>
 
+
+      <div className = "sm:hidden md:hidden lg:block">
       <div className="space-y-2 py-4 bg-gray-900">
         <div className = "container ml-96 w-1/2">
         <div className = "flex mx-auto justify-center gap-56 mt-8">
@@ -166,7 +168,7 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-
+      </div>
    </>
   );
 };
